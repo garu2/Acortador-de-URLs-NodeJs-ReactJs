@@ -12,19 +12,30 @@
 - Copy short urls
 
 ## 📦 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/garu2/Acortador-de-URLs-NodeJs-ReactJs.git
+cd Acortador-de-URLs-NodeJs-ReactJs
 ```
-git clone 
-```
-```
-cd 
-```
-```
+
+### 2. Setup Backend (API Server)
+```bash
+cd short-url-api
 npm install
+node server.js
 ```
-```
+The backend API will be running on `http://localhost:3001`
+
+### 3. Setup Frontend (React UI)
+Open a new terminal window and run:
+```bash
+cd short-url-ui
+npm install
 npm run dev
 ```
-The app will be available at `http://localhost:5173`
+The frontend app will be available at `http://localhost:5173`
+
 
 ## ⚙️ Technologies
 * [Vite.js](https://vitejs.dev/)
