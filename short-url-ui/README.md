@@ -1,6 +1,6 @@
-# 🔗 Acortador de URLs Frontend
+# 🔗 URL Shortener Frontend
 
-Interfaz de usuario construida con React y Vite.
+User interface built with React and Vite.
 
 ## 🚀 Getting Started
 
@@ -9,23 +9,23 @@ npm install
 npm run dev
 ```
 
-La aplicación estará disponible en `http://localhost:5173`
+The app will be available at `http://localhost:5173`
 
-## 📱 Funcionamiento de App.jsx
+## 📱 How `App.jsx` works
 
-### Estados
-- `url` - URL original ingresada por el usuario
-- `shortUrl` - URL acortada devuelta por la API
+### State
+- `url` - Original URL entered by the user
+- `shortUrl` - Shortened URL returned by the API
 
-### Función principal
-`getShortUrl()` envía una petición POST a `http://localhost:3001/api/shorten` con la URL original y actualiza el estado con la URL acortada.
+### Main function
+`getShortUrl()` sends a POST request to `http://localhost:3001/api/shorten` with the original URL and updates state with the shortened URL.
 
-### Interfaz
-1. **Input** - Campo para ingresar la URL original
-2. **Botón "Shorten"** - Ejecuta la función para acortar la URL
-3. **Resultado** - Muestra la URL acortada con botón para copiar al portapapeles
+### UI
+1. **Input** - Field to enter the original URL
+2. **"Shorten" button** - Triggers the URL shortening function
+3. **Result** - Displays the shortened URL with a copy-to-clipboard button
 
-## ⚙️ Tecnologías
+## ⚙️ Technologies
 - React + Vite
 - Fetch API
 - Clipboard API
